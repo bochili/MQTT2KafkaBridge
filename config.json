@@ -1,0 +1,10 @@
+{
+    "mqtt_broker": "192.168.1.5",
+    "mqtt_port": 1883,
+    "mqtt_topics": ["face/response", "heartbeat/response"],
+    "kafka_broker": "192.168.1.5:9092",
+    "topic_mapping": {
+        "face/response": "face_response",
+        "heartbeat/response": "heartbeat"
+    }
+}

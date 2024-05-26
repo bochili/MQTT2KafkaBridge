@@ -7,6 +7,7 @@ A simple MQTT to Kafka message bridge. Easy to use, configured simply. Based on 
 Environment:
 
 ```
+- Python 3.11.9
 - paho-mqtt==2.1.0
 - confluent-kafka==2.4.0
 ```

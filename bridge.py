@@ -87,6 +87,7 @@ mqtt_client.connect(mqtt_broker, mqtt_port, 60)
 import threading
 
 message_processing_thread = threading.Thread(target=process_messages)
+message_processing_thread.daemon = True
 message_processing_thread.start()
 
 # 开始循环处理网络流量和调度回调
